@@ -36,17 +36,40 @@ class Program
 
         string? userInput = Console.ReadLine();
 
-        string expectedName = "Jørgen";
-        if (userInput == expectedName)
+        //string expectedName = "Jørgen";
+         //string expectedAge = "";
+
+        // if (Convert.ToDouble(userInput) >= 18)
+        // {
+        //     Console.WriteLine($"Du kan komme inn på nattklubben");
+        // }
+        // else
+        // {
+        //     Console.WriteLine("Du får ikke komme inn!");
+        // }
+
+        switch (userInput.ToLower())
         {
-            Console.WriteLine($"Hei {expectedName}");
+            case "hei":
+                Console.WriteLine("Hei der!");
+                break;
 
+            case "ha det":
+                Console.WriteLine("Ha det!");
+                break;
+
+            case "fakta":
+                Console.WriteLine("Factoid betyr ikke en liten og sann fakt, men usann informasjon presentert som faktum.");
+                break;
+
+            default:
+               Console.WriteLine("Okay");
+                break;
         }
-        else
-        {
-            Console.WriteLine("Nå lyger du, det er ikke det du heter!");
-        }
-
-
+            // eksempel på en lang string
+            string longString = @"""
+            test
+            ""It is a truth universally acknowledged that a single man in possesion of a good fortune must be in want of a wife";
+            Console.WriteLine(longString);
     }
 }
