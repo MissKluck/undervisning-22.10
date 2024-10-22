@@ -12,3 +12,4 @@
 /Users/Sigrid/Documents/C#/undervisning 22.10/obj/Debug/net8.0/undervisning 22.10.pdb
 /Users/Sigrid/Documents/C#/undervisning 22.10/obj/Debug/net8.0/undervisning 22.10.genruntimeconfig.cache
 /Users/Sigrid/Documents/C#/undervisning 22.10/obj/Debug/net8.0/ref/undervisning 22.10.dll
+/Users/Sigrid/Documents/C#/undervisning 22.10/obj/Debug/net8.0/undervisning 22.10.sourcelink.json
